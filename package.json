@@ -1,0 +1,43 @@
+{
+  "name": "ruc-client",
+  "version": "0.0.1",
+  "description": "A client to get the ruc form the page ruc.com.py in format JSON",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "client",
+    "rest",
+    "ruc"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Guillermo Rodas Gómez <grodasgomez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-html-parser": "^5.2.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "types": "./index.d.ts",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grodasgomez/ruc-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grodasgomez/ruc-client/issues"
+  },
+  "homepage": "https://github.com/grodasgomez/ruc-client#readme"
+}
