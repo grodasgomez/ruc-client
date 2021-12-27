@@ -14,7 +14,8 @@
     "ruc"
   ],
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "author": "Guillermo Rodas Gómez <grodasgomez@gmail.com>",
   "license": "MIT",
