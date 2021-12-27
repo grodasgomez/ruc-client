@@ -1,6 +1,6 @@
 {
   "name": "ruc-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A client to get the ruc form the page ruc.com.py in format JSON",
   "scripts": {
     "prebuild": "rimraf dist",
